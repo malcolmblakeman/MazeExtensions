@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "MazeBench Autoplayer",
+  "version": "0.2.0",
+  "description": "Replays saved solutions on MazeBench maze levels (42 rooms and counting). Extensible to all gem mazes.",
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "action": { "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }, "default_title": "MazeBench Autoplayer" },
+  "content_scripts": [
+    {
+      "matches": ["https://mazebench.com/play/maze/*"],
+      "js": ["solutions.js", "content.js"],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+MxL PASS moves=74 expanded=84 elapsed=0s mode=eng-bfs cap=1
+NxI MISS no-output bfs cap=1
+ExP MISS no-output bfs cap=1
+DxL MISS no-output bfs cap=1
+GxI MISS no-output bfs cap=1
+ExF MISS no-output bfs cap=1
+DxM MISS no-output bfs cap=1
+MxO MISS no-output bfs cap=1
+OxC MISS no-output bfs cap=1

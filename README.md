@@ -5,7 +5,6 @@ Two Chrome extensions (Manifest V3, no permissions, no network calls) that play
 
 | | maze-autoplay | maze-tour |
 |---|---|---|
-| Icon | ![autoplay](maze-autoplay/icons/icon48.png) | ![tour](maze-tour/icons/icon48.png) |
 | What | Replays saved single-room solutions: autoplay, step, hold-to-undo, reset, speed | Walks precomputed multi-room tours, crossings included |
 | Scope | **42 rooms**, all engine-verified ([registry](maze-autoplay/REGISTRY.md)) | **Path A:** 45 legs, 2152 moves, 💎 10, ends MxE · **Path B:** 29 legs, 1916 moves, 💎 7, ends ExF |
 | Docs | [README](maze-autoplay/README.md) · [solver](maze-autoplay/solver/README.md) | [README](maze-tour/README.md) |
